@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Inter";
+	src: url("/App/assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+	format: ("truetype-variations");
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--inter-font: "Inter";
+}

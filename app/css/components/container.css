@@ -1,0 +1,106 @@
+body,
+.container,
+.heading,
+.socials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+body {
+	background-color: var(--grey-900);
+	color: var(--white);
+	width: 100dvw;
+	height: 100dvh;
+}
+
+/* container */
+.container {
+	background-color: var(--grey-800);
+	border-radius: 12px;
+	width: 88dvw;
+	height: 36rem;
+	justify-content: space-between;
+	transition: width 400ms ease;
+	transition: height 400ms ease;
+}
+
+.heading,
+.socials {
+	width: 100%;
+	overflow: none;
+}
+.heading {
+	height: 35%;
+	justify-content: space-evenly;
+}
+
+/* avatar */
+.heading > header > img {
+	border-radius: 50%;
+	width: 50%;
+	padding: 1.5rem 0 0.75rem 0;
+}
+/* my info */
+.heading > section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.heading > section > p {
+	margin: 0;
+}
+.heading > #about {
+	justify-content: space-evenly;
+}
+.heading > #about > p:first-child {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 0.75rem 0 0.4rem 0;
+}
+.heading > #about > p:nth-child(2) {
+	color: var(--green);
+	font-weight: 600;
+	padding: 0.4rem 0 0.8rem 0;
+}
+.heading > #description > p {
+	padding: 0.8rem 0 0.4rem 0;
+}
+
+/* buttons */
+.socials {
+	justify-content: flex-start;
+	height: 55%;
+	gap: 1.1rem;
+	padding: 0.4rem 0 0 0;
+}
+.socials > button {
+	background-color: var(--grey-700);
+	color: var(--white);
+	border: none;
+	border-radius: 8px;
+	width: 85%;
+	padding: 0.9rem 0rem;
+	font-weight: 600;
+}
+/* button hover */
+.socials > button:hover {
+	background-color: var(--green);
+	color: var(--grey-900);
+	transition: background-color 400ms ease;
+	cursor: pointer;
+	caret-color: var(--grey-900);
+}
+
+/* footer */
+.attribution {
+	font-size: 0.7rem;
+	text-align: center;
+	padding: 0.7rem 0;
+}
+.attribution a {
+	color: var(--green);
+}
