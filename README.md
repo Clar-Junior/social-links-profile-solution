@@ -80,5 +80,5 @@ Esse projeto me ajudou a solidificar conceitos como: design responsivo, flexbox,
 
 ## Author
 
-- Website - [C.Junior](https://www.your-site.com)
+- Website - [C.Junior](https://clar-junior.github.io/social-links-profile-solution/)
 - Frontend Mentor - [@Clar-Junior](https://www.frontendmentor.io/profile/yourusername)
